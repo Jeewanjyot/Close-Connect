@@ -1,0 +1,10 @@
+/* Style a simple button */
+button {
+    background-color: #008080; /* Teal color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
