@@ -35,9 +35,24 @@ h1 {
     font-size: xxx-large;
 }
 
+h2 {
+    font-size: xx-large;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: x-large;
+    padding: 20px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
 p {
     font-size: medium;
     line-height: 3;
+    padding: 20px;
+    margin-left: 20px;
 }
 
 .my-button {
@@ -51,12 +66,33 @@ p {
     cursor: pointer;
 }
 
+.my-button :hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.bordered-image {
+    border: 2px solid #00C898;
+    text-align: center;
+}
+
 .image-container img {
+    
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
     height: auto; /* Maintain the aspect ratio */
+    
 }
 
 .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Spread the items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    padding-top: 30px;
+    text-align: center;
+}
+
+.left-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around; /* Spread the items horizontally */
