@@ -35,6 +35,11 @@ h1 {
     font-size: xxx-large;
 }
 
+p {
+    font-size: medium;
+    line-height: 3;
+}
+
 .my-button {
     color: white;
     background-color: #00C898;
