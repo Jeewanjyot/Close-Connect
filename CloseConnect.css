@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -59,6 +59,21 @@ p {
     line-height: 3;
     padding: 20px;
     margin-left: 20px;
+}
+
+.large-text {
+    font-size: x-large;
+    line-height: 3;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.blue-text {
+    font-size: medium;
+    line-height: 3;
+    padding: 20px;
+    margin-left: 20px;
+    color: #04A6EC;
 }
 
 .my-button {
