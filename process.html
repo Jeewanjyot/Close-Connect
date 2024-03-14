@@ -21,9 +21,83 @@
     </header>
 
     <main>
-        <h1>The process</h1>
-        <h2>Interview/Survey</h2>
-        <h2>Timeline</h2>
+        <h1>Timeline</h1>
+
+        <div class="content-wrapper">
+            <div class="bordered-image">
+                <img src="icons.png" alt="Pie chart of lonliness" width="200">
+            </div>
+            <div class="bordered-image">
+                <img src="streak.png" alt="Pie chart of lonliness" width="200">
+            </div>
+            <div class="bordered-image">
+                <img src="block.png" alt="Pie chart of lonliness" width="200">
+            </div>
+        </div>
+
+        <title>Horizontal Line with Dots</title>
+        <style>
+        .line {
+            width: 100%; /* Set the width of the line */
+            height: 2px; /* Set the height of the line */
+            background-color: #00C898; /* Set the color of the line */
+            display: flex;
+            justify-content: space-around;
+            
+            align-items: center;
+            padding: 0 0px; /* Adjust spacing between dots */
+            margin-top: 30px;
+            margin-bottom: 0px;
+        }
+
+        .dot {
+            width: 10px; /* Set the diameter of the dot */
+            height: 10px; /* Set the diameter of the dot */
+            background-color: #000; /* Set the color of the dot */
+            border-radius: 50%;
+        }
+        </style>
+
+        <div class="line">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <div class="left-wrapper">
+            <div>
+                <ul>
+                    <li>Remove Journaling Feature</li><br>
+                    <li>Add more Iconography</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>User Feedback</p>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Add Streaks to Encourage Interactions</li><br>
+                    <li>Plan Hangout Feature</li>
+                </ul>
+            </div>
+
+            <div>
+                <p>User Feedback</p>
+            </div>
+
+            <div>
+                 <ul>
+                    <li>Add Block Feature</li><br>
+                    <li>Turn on/off Avatar Feature</li>
+                </ul>
+            </div>
+
+        </div>
+
         <script src="CloseConnect.js"></script>
     </main>
     <footer>
@@ -41,12 +115,7 @@
                 <div>
                     <p>Jessica Bui</p>
                 </div>
-                
-                
             </div>
-            
-                
-
         </ul>
     </footer>
 </body>
