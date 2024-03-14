@@ -8,6 +8,11 @@ header {
     color: #fff;
     padding: 10px;
 }
+footer {
+    background-color: #B3B3B3;
+    color: #fff;
+    padding: 10px;
+}
 
 nav ul {
     list-style: none;
@@ -75,6 +80,7 @@ p {
 .bordered-image {
     border: 2px solid #00C898;
     text-align: center;
+    
 }
 
 .left-align-text {
